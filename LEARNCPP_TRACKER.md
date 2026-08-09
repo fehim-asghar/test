@@ -64,12 +64,12 @@ This tracker breaks down our 60-day C++ course according to the official **Learn
 - [x] **4.4** — Signed integers
 - [x] **4.5** — Unsigned integers (and why to avoid them)
 - [x] **4.6** — Fixed-width integers (`std::int32_t`) and `std::size_t`
-- [ ] **4.8** — Floating point numbers (`float`, `double`)
-- [ ] **4.9** — Booleans (`bool`)
-- [ ] **4.10** — Introduction to `if` statements
-- [ ] **4.11** — Chars (`char` and ASCII)
-- [ ] **4.12** — Type conversion and casting (`static_cast`)
-- [ ] **4.13** — Introduction to `std::string`
+- [x] **4.8** — Floating point numbers (`float`, `double`)
+- [x] **4.9** — Booleans (`bool`)
+- [x] **4.10** — Introduction to `if` statements
+- [x] **4.11** — Chars (`char` and ASCII)
+- [x] **4.12** — Type conversion and casting (`static_cast`)
+- [x] **4.13** — Introduction to `std::string`
 - [ ] **4.14** — Introduction to `std::string_view`
 
 ---

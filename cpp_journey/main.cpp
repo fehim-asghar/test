@@ -1,18 +1,13 @@
 #include<iostream>
-#include<cstdint>
+#include<string>
 using namespace std;
 
 int main(){
-   cout<<sizeof(int)<<endl;
-   cout<<sizeof(double)<<endl;
-   cout<<sizeof(std::int8_t)<<endl;
-   cout<<sizeof(std::int64_t)<<endl;
+   int itemPrice = 100;
+   double taxRate = 1.05;
 
-   int max_num {2147483647};
-
-   max_num=max_num+1;
-
-   cout<<max_num<<endl;
+   double finalPrice = static_cast<double>(itemPrice)*taxRate;
+   cout<<"Final price : "<<finalPrice;
 
    return 0;
 }
