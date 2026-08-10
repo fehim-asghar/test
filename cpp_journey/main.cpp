@@ -3,11 +3,8 @@
 using namespace std;
 
 int main(){
-   int itemPrice = 100;
-   double taxRate = 1.05;
+   constexpr double gravity = 9.81 ;
+   unsigned int maxFramePerSecond = 60u ;
 
-   double finalPrice = static_cast<double>(itemPrice)*taxRate;
-   cout<<"Final price : "<<finalPrice;
 
-   return 0;
 }

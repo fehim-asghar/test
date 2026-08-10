@@ -74,12 +74,12 @@ This tracker breaks down our 60-day C++ course according to the official **Learn
 
 ---
 
-## ⏳ Chapter 5: Constants and Strings
-- [ ] **5.1** — Constant variables (`const`)
-- [ ] **5.2** — Literals
-- [ ] **5.3** — Numeral systems (binary, hex)
-- [ ] **5.4** — Constant expressions and `constexpr`
-- [ ] **5.5** — `consteval` and `constinit` (C++20)
+## 🟡 Chapter 5: Constants and Strings (IN PROGRESS)
+- [x] **5.1** — Constant variables (`const`)
+- [x] **5.2** — Literals
+- [x] **5.3** — Numeral systems (binary, hex)
+- [x] **5.4** — Constant expressions and `constexpr`
+- [x] **5.5** — `consteval` and `constinit` (C++20)
 - [ ] **5.6** — `std::string` and zero-copy `std::string_view`
 
 ---
