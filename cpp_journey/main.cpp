@@ -1,23 +1,32 @@
 #include<iostream>
-#include<string>
-#include<vector>
 using namespace std;
 
 int main(){
-   vector<int> scores{45, 88, 92,60 , 74 , 98 , 55};
-   int vip = 0;
-   double sum =0;
+    int m,n;
+    cin>>m>>n;
+    int arra [m][n];
+    
 
-   for(int i =0 ; i<scores.size(); i++){
-      if(scores[i]>=75){
-         vip++;
-      }
-
-      sum = sum+scores[i];
-
-
+    for(int i =0 ; i<m ; i++){
+        for(int j = 0 ; j<n ; j++){
+            cin>>arra[i][j];
+        }
+        cout<<endl;
    }
-   cout<<vip;
-   cout<<sum/scores.size();
-
+   int max =arra[0][0];
+   int x{0};
+   int y{0};
+   for(int i =0 ; i<m ; i++){
+        for(int j = 0 ; j<n ; j++){
+            if(arra[i][j]>max){
+            max=arra[i][j]; 
+            x=i ;
+            y=j ;
+            }
+        }
+        cout<<endl;
+   }
+   cout<<x<<" "<<y<<endl;
+   
+   
 }
