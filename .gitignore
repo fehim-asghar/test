@@ -1,1 +1,17 @@
+# Compiled binaries and executables
+*.exe
+*.o
+*.out
+app
+app.exe
+*.pdb
+*.ilk
+
+# Secret files
 passwords.txt
+git_practice/passwords.txt
+
+# VS Code / OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
